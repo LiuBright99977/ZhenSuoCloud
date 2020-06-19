@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      uri: http://192.168.40.132:3344  #本地微服务启动后先找3344服务，通过3344服务跟GitHub取得连接
+      name: Prescription #需要从GitHub上读取的资源名称，注意没有yml后缀
+      label: master

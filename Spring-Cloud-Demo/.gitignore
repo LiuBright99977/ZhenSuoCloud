@@ -1,0 +1,25 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+.iml
+**/*.iml
+**/lib
+target
+.class
+out
+gen
+Clinic-API/BasicData-API/src/main/resources/
+Clinic-API/BasicData-API/src/test/
+Clinic-API/Medicine-API/src/main/resources/
+Clinic-API/Medicine-API/src/test/
+Clinic-BasicData/src/test/
+Clinic-Mdeicine-Management/src/
+Clinic-Mdeicine-Management/web/
+Clinic-Medicine/src/test/
+Clinic-Prescription/src/test/
+Eureka-Server-Cluster/src/test/
+Eureka-Server-Zuul/src/test/
+Spring-Cloud-Config/src/test/

@@ -1,0 +1,22 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LiuBright99977/ZhenSuoCloud-Config.git
+  rabbitmq:
+    addresses: amqp://192.168.40.132:5672
+    password: 123456
+    username: admin
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
